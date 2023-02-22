@@ -49,7 +49,23 @@
     font-family: monospace, monospace;
     font-size: 1em;
   }
+/* Blurb customization */
+  .navBar h1 {
+    width:auto;
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 30%;
+    display: inline-block;
+  }
 
+  .navBar div {
+    float: right;
+    margin-right: 2%;
+    margin-top: 10px;
+    display: inline;
+  }
+
+/* End Blurb customization */
   small {
     font-size: 80%;
   }
@@ -163,7 +179,7 @@
     -webkit-appearance: button;
     font: inherit;
   }
-  
+
   /* Interactive
      ========================================================================== */
   /*
