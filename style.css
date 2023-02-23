@@ -67,9 +67,19 @@
 
   .postText {
     width: fit-content;
-    text-align: center;
-    border: #2d3e50;
-    border-width: 10px;
+    border-bottom: 5px dotted #2d3e50;
+    border-top: 5px dotted #2d3e50;
+    border-left: 5px dotted #2d3e50;
+    border-right: 5px dotted #2d3e50;
+    background-color: #a7bad1;
+    padding-right: 40%;
+    padding-left: 2%;
+    padding-bottom: 7%;
+    padding-top: 5%;
+  }
+
+  .postText p {
+    text-align: left;
   }
 
 /* End Blurb customization */
