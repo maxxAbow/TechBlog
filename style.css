@@ -65,6 +65,13 @@
     display: inline;
   }
 
+  .postText {
+    width: fit-content;
+    text-align: center;
+    border: #2d3e50;
+    border-width: 10px;
+  }
+
 /* End Blurb customization */
   small {
     font-size: 80%;
